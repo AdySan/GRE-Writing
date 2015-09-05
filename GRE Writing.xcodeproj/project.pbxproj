@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		708D581E19E256310063A57F /* APRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 708D581D19E256310063A57F /* APRoundedButton.m */; };
+		708D582019E2564C0063A57F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708D581F19E2564C0063A57F /* QuartzCore.framework */; };
 		7098E19119E23EF900166675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7098E19019E23EF900166675 /* main.m */; };
 		7098E19419E23EF900166675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7098E19319E23EF900166675 /* AppDelegate.m */; };
 		7098E19719E23EF900166675 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7098E19619E23EF900166675 /* ViewController.m */; };
@@ -14,6 +16,10 @@
 		7098E19C19E23EF900166675 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7098E19B19E23EF900166675 /* Images.xcassets */; };
 		7098E19F19E23EF900166675 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7098E19D19E23EF900166675 /* LaunchScreen.xib */; };
 		7098E1AB19E23EFA00166675 /* GRE_WritingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7098E1AA19E23EFA00166675 /* GRE_WritingTests.m */; };
+		7098E1B519E23F1600166675 /* GRE149.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7098E1B419E23F1600166675 /* GRE149.plist */; };
+		7098E1B719E2465B00166675 /* GRE174.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7098E1B619E2465B00166675 /* GRE174.plist */; };
+		7098E1BA19E2492200166675 /* EssayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7098E1B919E2492200166675 /* EssayViewController.m */; };
+		7098E1BD19E2499D00166675 /* ArgumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7098E1BC19E2499D00166675 /* ArgumentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		708D581C19E256310063A57F /* APRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRoundedButton.h; sourceTree = "<group>"; };
+		708D581D19E256310063A57F /* APRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRoundedButton.m; sourceTree = "<group>"; };
+		708D581F19E2564C0063A57F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7098E18B19E23EF900166675 /* GRE Writing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GRE Writing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7098E18F19E23EF900166675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7098E19019E23EF900166675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,12 @@
 		7098E1A419E23EFA00166675 /* GRE WritingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GRE WritingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7098E1A919E23EFA00166675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7098E1AA19E23EFA00166675 /* GRE_WritingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRE_WritingTests.m; sourceTree = "<group>"; };
+		7098E1B419E23F1600166675 /* GRE149.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = GRE149.plist; path = ../GRE149.plist; sourceTree = "<group>"; };
+		7098E1B619E2465B00166675 /* GRE174.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = GRE174.plist; path = ../GRE174.plist; sourceTree = "<group>"; };
+		7098E1B819E2492200166675 /* EssayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssayViewController.h; sourceTree = "<group>"; };
+		7098E1B919E2492200166675 /* EssayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssayViewController.m; sourceTree = "<group>"; };
+		7098E1BB19E2499D00166675 /* ArgumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArgumentViewController.h; sourceTree = "<group>"; };
+		7098E1BC19E2499D00166675 /* ArgumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArgumentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708D582019E2564C0063A57F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 		7098E18219E23EF900166675 = {
 			isa = PBXGroup;
 			children = (
+				708D581F19E2564C0063A57F /* QuartzCore.framework */,
 				7098E18D19E23EF900166675 /* GRE Writing */,
 				7098E1A719E23EFA00166675 /* GRE WritingTests */,
 				7098E18C19E23EF900166675 /* Products */,
@@ -81,11 +98,19 @@
 		7098E18D19E23EF900166675 /* GRE Writing */ = {
 			isa = PBXGroup;
 			children = (
+				708D581C19E256310063A57F /* APRoundedButton.h */,
+				708D581D19E256310063A57F /* APRoundedButton.m */,
+				7098E1B419E23F1600166675 /* GRE149.plist */,
+				7098E1B619E2465B00166675 /* GRE174.plist */,
 				7098E19219E23EF900166675 /* AppDelegate.h */,
 				7098E19319E23EF900166675 /* AppDelegate.m */,
 				7098E19519E23EF900166675 /* ViewController.h */,
 				7098E19619E23EF900166675 /* ViewController.m */,
 				7098E19819E23EF900166675 /* Main.storyboard */,
+				7098E1BB19E2499D00166675 /* ArgumentViewController.h */,
+				7098E1BC19E2499D00166675 /* ArgumentViewController.m */,
+				7098E1B819E2492200166675 /* EssayViewController.h */,
+				7098E1B919E2492200166675 /* EssayViewController.m */,
 				7098E19B19E23EF900166675 /* Images.xcassets */,
 				7098E19D19E23EF900166675 /* LaunchScreen.xib */,
 				7098E18E19E23EF900166675 /* Supporting Files */,
@@ -201,6 +226,8 @@
 			files = (
 				7098E19A19E23EF900166675 /* Main.storyboard in Resources */,
 				7098E19F19E23EF900166675 /* LaunchScreen.xib in Resources */,
+				7098E1B519E23F1600166675 /* GRE149.plist in Resources */,
+				7098E1B719E2465B00166675 /* GRE174.plist in Resources */,
 				7098E19C19E23EF900166675 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7098E1BD19E2499D00166675 /* ArgumentViewController.m in Sources */,
+				7098E1BA19E2492200166675 /* EssayViewController.m in Sources */,
+				708D581E19E256310063A57F /* APRoundedButton.m in Sources */,
 				7098E19719E23EF900166675 /* ViewController.m in Sources */,
 				7098E19419E23EF900166675 /* AppDelegate.m in Sources */,
 				7098E19119E23EF900166675 /* main.m in Sources */,
@@ -412,6 +442,7 @@
 				7098E1B019E23EFA00166675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7098E1B119E23EFA00166675 /* Build configuration list for PBXNativeTarget "GRE WritingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +451,7 @@
 				7098E1B319E23EFA00166675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
